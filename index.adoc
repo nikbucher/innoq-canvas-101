@@ -1,0 +1,50 @@
+:toc: left
+:toc-title: Inhalt
+:toclevels: 3
+:docinfodir: docinfos
+:docinfo2:
+:figure-caption: Abbildung
+:example-caption!:
+:table-caption: Tabelle
+:note-caption: Hinweis
+:icons: font
+:data-uri:
+:source-highlighter: highlight.js
+:sectnums:
+:sectnumlevels: 3
+:sectlinks:
+:sectanchors:
+:xrefstyle: full
+:chapter-refsig: Kapitel
+:section-refsig: Kapitel
+:nofooter:
+
+= Canvas 101: One-Pager für bessere Kommunikation
+Markus Harrer, Anja Kammer, Lena Kraaz, Jörg Müller, Patrick Roos, Gernot Starke, Benjamin Wolf
+:revdate: Februar 2025
+:revnumber: 1.0
+:title-page:
+
+Homepage: https://www.innoq.com/de/books/canvas-101/[www.innoq.com/de/books/canvas-101]
+
+Published by https://www.innoq.com[innoQ Deutschland GmbH]
+
+ifndef::env-github[]
+
+include::01-einfuehrung.adoc[]
+
+include::02-canvases.adoc[]
+
+include::03-tools.adoc[]
+
+include::04-anhang.adoc[]
+
+endif::[]
+
+ifdef::env-github[]
+In diesem Repository habe ich eine Online-Version des «Canvas 101» Pdf von innoQ erstellt.
+
+Die aktuelle Website ist unter https://nikbucher.github.io/innoq-canvas-101/ erreichbar.
+
+Das Original-Buch kann unter https://www.innoq.com/de/books/canvas-101/ bezogen werden.
+endif::[]

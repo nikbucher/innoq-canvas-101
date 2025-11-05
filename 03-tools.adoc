@@ -1,0 +1,48 @@
+[#tools]
+== Tools
+
+[quote, Grady Booch]
+____
+A fool with a tool is still a fool.
+____
+
+Die hier vorgestellten Werkzeuge respektive Werkzeugkategorien können Sie für alle Arten von Canvases verwenden.
+
+[#tools-papier]
+=== Papier
+
+Eines unserer favorisierten Werkzeuge zum informellen Arbeiten an einem Canvas. Papier hat diverse Nachteile (schlecht änderbar, nicht automatisch durchsuchbar, begrenzte Fläche, geringe Haltbarkeit, empfindlich gegenüber Kaffeeflecken ...), jedoch auch bestechende Vorteile:
+
+* Keine Einstiegshürde, extrem einfach.
+* Als haptisches Medium fühlt es sich wirklich wie gemeinsame Arbeit an, einen Canvas auf einem Papier-Flipchart zu zeichnen und mit Inhalt zu befüllen.
+* Der Fokus liegt automatisch mehr auf dem Inhalt als auf dem Werkzeug.
+* Alle Beteiligten können sich aktiv beteiligen und kommen ins Gespräch.
+
+Besonders gut finden wir Papier in frühen Phasen, beim Brainstorming oder der Ideenfindung beim Canvas. Später, wenn die Inhalte sich gesetzt haben oder abgestimmt sind, können Sie auf digitale Werkzeuge wechseln.
+
+[#tools-digitale-zeichenwerkzeuge]
+=== Digitale Zeichenwerkzeuge
+
+Falls Sie partout nichts mit Papier anfangen können, sind vielleicht digitale Zeichenwerkzeuge die richtige Wahl für Sie. Die Gruppe diskutiert, eine Person schreibt / zeichnet in den Canvas.
+
+* https://www.drawio.com[draw.io] ist vermutlich das bekannteste Zeichenwerkzeug heutzutage. Sie finden für einige der hier vorgestellten Canvases bereits Templates für draw.io.
+* Visio, OmniGraffle oder Photoshop, letztlich können Sie jedes beliebige Zeichenwerkzeug verwenden, mit dem Sie zurechtkommen. Sie müssen nur darauf achten, dass alle Beteiligten die jeweiligen Werkzeuge zur Verfügung haben.
+
+[#tools-online-werkzeuge]
+=== Online-Werkzeuge
+
+Browser-basierte Online-Werkzeuge eignen sich gut für die gemeinsame Arbeit am Canvas. Sie können Ergebnisse gut aufheben, weitergeben, archivieren oder in andere Formate exportieren. Leider müssen Sie bei allen der genannten Werkzeuge für das Thema „Versionierung" eine eigene Lösung finden.
+
+* https://canvanizer.com/[Canvanizer], ein Start-up, das kollaborative Erstellung und Pflege von Canvases erlaubt. Einige Features können Sie in einer freien Version verwenden, für fortgeschrittene Aufgaben benötigen Sie ein Abo.
+* https://conceptboard.com/[Conceptboard], https://miro.com/de/[Miro] oder https://www.mural.co/[Mural] sind kollaborative Zeichenwerkzeuge, mit denen Sie in einer Gruppe online an Ihrem Canvas arbeiten können.
+* https://www.drawio.com[draw.io]-Plugin für https://www.atlassian.com/software/confluence[Confluence]. So haben Sie die Möglichkeit, in einem Ihnen bekannten Zeichenwerkzeug kollaborativ zu arbeiten – eine ideale Lösung, wenn Sie bereits Confluence in Ihrer Firma einsetzen.
+
+[#tools-powerpoint]
+=== PowerPoint und Co.
+
+Ja, Sie lesen richtig: PowerPoint. Für komplett andere Anwendungszwecke gedacht, halten wir Präsentationswerkzeuge wie PowerPoint für den Einsatz bei Canvases für hilfreich:
+
+* Die Struktur des Canvas ist als Folienvorlage (in PowerPoint-Terminologie: Master) gespeichert.
+* Die Inhalte liegen dann als einfache Textfelder vor.
+
+Sehr charmant finden wir die Evolutionsfähigkeit dieser Art von Dokumentation: Einfaches Copy+Paste einer Canvas-Folie schafft eine Replik, in der Sie dann lediglich die Änderungen zur Vorgängerversion übernehmen müssen. Damit können Sie sehr einfach den Fortschritt der Arbeit darstellen.

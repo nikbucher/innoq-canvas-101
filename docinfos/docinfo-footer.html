@@ -1,0 +1,126 @@
+<script>
+// Custom TOC collapse/expand and active link highlighting
+// Works with AsciiDoc-generated TOC (no external dependencies)
+
+(function() {
+  'use strict';
+
+  var toc = document.getElementById('toc');
+  if (!toc) {
+    console.warn('TOC element not found');
+    return;
+  }
+
+  // Throttle function for performance
+  function throttle(func, wait) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      if (!timeout) {
+        timeout = setTimeout(function() {
+          timeout = null;
+          func.apply(context, args);
+        }, wait);
+      }
+    };
+  }
+
+  // Feature detection: Should we enable collapse functionality?
+  function shouldEnableCollapse() {
+    return window.innerWidth >= 768;
+  }
+
+  // Toggle collapse functionality based on screen width
+  function toggleCollapseFeature() {
+    if (shouldEnableCollapse()) {
+      toc.classList.add('toc-collapsible');
+    } else {
+      toc.classList.remove('toc-collapsible');
+    }
+  }
+
+  // Get all headings in the content
+  var headings = document.querySelectorAll('#content h1[id], #content h2[id], #content h3[id], #content h4[id], #content h5[id]');
+  var tocLinks = toc.querySelectorAll('a');
+  var level1Items = toc.querySelectorAll('.sectlevel1 > li');
+
+  // Update TOC based on scroll position
+  function updateTOC() {
+    var scrollPos = window.scrollY || document.documentElement.scrollTop;
+    var offset = 100; // Larger offset for better UX - activate section when close to it
+
+    // Find the currently active heading
+    var activeHeading = null;
+    headings.forEach(function(heading) {
+      if (heading.offsetTop <= scrollPos + offset) {
+        activeHeading = heading;
+      }
+    });
+
+    if (!activeHeading) {
+      activeHeading = headings[0]; // Default to first heading
+    }
+
+    // Remove all active classes
+    tocLinks.forEach(function(link) {
+      link.classList.remove('active');
+    });
+
+    if (activeHeading) {
+      // Find and mark the active link
+      var activeLink = toc.querySelector('a[href="#' + activeHeading.id + '"]');
+
+      if (activeLink) {
+        activeLink.classList.add('active');
+
+        // Collapse ALL items at all levels first
+        toc.querySelectorAll('li.expanded').forEach(function(item) {
+          item.classList.remove('expanded');
+        });
+
+        // Expand only the items in the active path
+        var ancestorLi = activeLink.closest('li');
+        while (ancestorLi) {
+          ancestorLi.classList.add('expanded');
+          ancestorLi = ancestorLi.parentElement.closest('li');
+        }
+      }
+    }
+  }
+
+  // Handle hash changes (direct links)
+  function handleHashChange() {
+    var hash = window.location.hash;
+    if (hash) {
+      setTimeout(updateTOC, 100); // Small delay to ensure scroll has happened
+    }
+  }
+
+  // Throttled scroll listener
+  var throttledUpdate = throttle(updateTOC, 50);
+  window.addEventListener('scroll', throttledUpdate, false);
+  window.addEventListener('hashchange', handleHashChange, false);
+
+  // Throttled resize listener for toggling collapse feature
+  var throttledResize = throttle(function() {
+    toggleCollapseFeature();
+    updateTOC();
+  }, 50);
+  window.addEventListener('resize', throttledResize, false);
+
+  // Initial setup on page load
+  function initialize() {
+    toggleCollapseFeature(); // Set initial state based on screen width
+    updateTOC();
+    console.log('Custom TOC initialized (collapsible: ' + toc.classList.contains('toc-collapsible') + ')');
+  }
+
+  // Call initialization
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initialize);
+  } else {
+    // DOM already loaded
+    initialize();
+  }
+})();
+</script>

@@ -1,0 +1,96 @@
+<style>
+/* Custom TOC collapse/expand functionality - no external dependencies */
+
+/* Make TOC sticky on desktop */
+@media screen and (min-width: 768px) {
+  #toc {
+    position: sticky;
+    top: 20px;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+  }
+}
+
+/* Collapse functionality: Only active when .toc-collapsible class is set */
+#toc.toc-collapsible .sectlevel2,
+#toc.toc-collapsible .sectlevel3,
+#toc.toc-collapsible .sectlevel4,
+#toc.toc-collapsible .sectlevel5 {
+  display: none;
+  opacity: 0;
+}
+
+/* Show nested sections when parent li has 'expanded' class */
+#toc.toc-collapsible .sectlevel1 > li.expanded > .sectlevel2 {
+  display: block;
+  opacity: 1;
+}
+
+#toc.toc-collapsible .sectlevel2 > li.expanded > .sectlevel3 {
+  display: block;
+  opacity: 1;
+}
+
+#toc.toc-collapsible .sectlevel3 > li.expanded > .sectlevel4 {
+  display: block;
+  opacity: 1;
+}
+
+#toc.toc-collapsible .sectlevel4 > li.expanded > .sectlevel5 {
+  display: block;
+  opacity: 1;
+}
+
+/* Mobile override: Always show all sections on narrow screens */
+@media screen and (max-width: 767px) {
+  #toc.toc-collapsible .sectlevel2,
+  #toc.toc-collapsible .sectlevel3,
+  #toc.toc-collapsible .sectlevel4,
+  #toc.toc-collapsible .sectlevel5 {
+    display: block !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Active link styling */
+#toc.toc-collapsible a.active {
+  font-weight: 700;
+  /* color: #ba3925; */
+}
+
+/* Custom scrollbar for TOC on desktop */
+@media screen and (min-width: 768px) {
+  #toc::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  #toc::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  #toc::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+
+  #toc::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+/* Print styling - show all TOC items when printing */
+@media print {
+  #toc {
+    position: static !important;
+    max-height: none !important;
+  }
+
+  #toc .sectlevel2,
+  #toc .sectlevel3,
+  #toc .sectlevel4,
+  #toc .sectlevel5 {
+    display: block !important;
+    opacity: 1 !important;
+  }
+}
+</style>

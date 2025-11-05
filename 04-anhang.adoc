@@ -1,0 +1,62 @@
+[#anhang]
+== Anhang
+
+image::img/canvas-037.png[]
+
+Wir beraten ehrlich, denken innovativ und entwickeln leidenschaftlich gern. Das Ergebnis: Erfolgreiche Softwarelösungen, Infrastrukturen und Geschäftsmodelle.
+
+Als Technologieunternehmen fokussieren wir uns auf Strategie- und Technologieberatung, Softwarearchitektur und -entwicklung, Methoden- und Technologietraining sowie Plattform-Infrastrukturen.
+
+Wir unterstützen mit über 160 Mitarbeiter:innen an Standorten in Deutschland und der Schweiz Unternehmen und Organisationen bei Konzeption und Umsetzung komplexer Vorhaben und der Verbesserung bestehender Softwaresysteme.
+
+Wir engagieren uns in Open-Source-Projekten sowie dem iSAQB e.V., und geben Wissen und Erfahrungen auf Konferenzen und Meetups sowie in zahlreichen Büchern und Fachartikeln weiter.
+
+Besuchen Sie uns: www.innoq.com
+
+[#literatur]
+=== Literatur
+
+[bibliography]
+- [[[osterwalder-pigneur]]] A. Osterwalder und Y. Pigneur, _Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers_. Wiley, 2010, S. 278.
+- [[[roos]]] P. Roos, „The Software Architecture Canvas: An Efficient and Collaborative Way to Define Your Software Architecture Playground". https://www.workingsoftware.dev/software-architecture-canvas/, 2023.
+- [[[heise-special]]] H. D. Special, „Episode 97: Architecture Canvas (2): Einstieg in die Lösung". Podcast, https://www.heise.de/blog/Episode-97-Architecture-Canvas-2-Einstieg-in-die-Loesung-9697394.html, 2024.
+- [[[starke-wolf]]] G. Starke und B. Wolf, „Der Architecture Communication Canvas". https://www.informatik-aktuell.de/entwicklung/methoden/der-architecture-communication-canvas.html, 2024.
+- [[[canvas-arc42]]] canvas.arc42.org, „Architecture Communication Canvas". https://canvas.arc42.org/architecture-communication-canvas, 2024.
+
+[#autorinnen]
+== Autor:innen
+
+[#autor-markus-harrer]
+=== Markus Harrer
+
+Markus Harrer ist Principal Consultant bei INNOQ. Er unterstützt Unternehmen bei der Modernisierung von Legacy-Systemen und der Einführung von effektiven Engineering-Praktiken.
+
+[#autor-anja-kammer]
+=== Anja Kammer
+
+Anja Kammer ist Senior Consultant bei INNOQ und begleitet Unternehmen auf ihrem Weg in die Cloud. Neben der Beratung zu Entwicklungsprozessen und -plattformen entwickelt sie Cloud-native Webanwendungen in cross-funktionalen Teams. Zudem ist sie akkreditierte Trainerin und Co-Kuratorin für das iSAQB Advanced-Level-Modul CLOUDINFRA.
+
+[#autor-lena-kraaz]
+=== Lena Kraaz
+
+Lena Kraaz arbeitet als Senior Consultant bei INNOQ. Ihre Schwerpunkte liegen in der Arbeit mit Teams, Prozessen und Product Ownership. Sie unterstützt Unternehmen als Facilitator bei der Umsetzung von Projekten und agilen Prozessen.
+
+[#autor-joerg-mueller]
+=== Jörg Müller
+
+Jörg Müller ist Principal Consultant bei INNOQ. Er verfügt über mehr als 25 Jahre Erfahrung in der Softwarebranche. In dieser Zeit hatte er viele Engagements in der Beratung, der Entwicklung von Softwareprodukten und der Leitung von Teams. Seine Kernkompetenzen liegen in den Bereichen Softwarearchitektur und DevOps. Neben dieser Arbeit engagiert sich Jörg für die Community. Er organisiert User Groups und Konferenzen und hält dort Vorträge.
+
+[#autor-patrick-roos]
+=== Patrick Roos
+
+Patrick ist als Tech Lead, Softwarearchitekt und -entwickler im Bereich von SaaS-Lösungen bei der Fellow GmbH tätig. Er engagiert sich auch als nebenamtlicher Dozent an der Hochschule Luzern für Themen rund um Frontend-Architekturen, Webtechnologien und Software-Architektur. Auf seinem Blog workingsoftware.dev teilt er Einblicke und Erfahrungen aus der Praxis.
+
+[#autor-gernot-starke]
+=== Gernot Starke
+
+Dr. Gernot Starke (INNOQ Fellow) arbeitet seit über 25 Jahren in der Softwareentwicklung, als Softwarearchitekt, Coach, Consultant und Trainer. 2005 hat Gernot gemeinsam mit Dr. Peter Hruschka das arc42-Template veröffentlicht und es seitdem in zahlreichen Entwicklungsprojekten eingesetzt und mehrere größere Systeme damit dokumentiert. Gernot ist Gründungsmitglied des iSAQB e. V., leitet die Arbeitsgruppe Foundation Level und kuratiert die Lehrpläne IMPROVE, REQ4ARC und ADOC.
+
+[#autor-benjamin-wolf]
+=== Benjamin Wolf
+
+Ben ist Senior Consultant bei INNOQ mit den Schwerpunkten Modernisieren von Legacy-Systemen, Architekturdokumentation sowie Architekturberatung und -entwicklung. Dabei richtet er ein besonderes Augenmerk auf die Entwicklungsprozesse und die Einstellung zu Softwarequalität in Teams.

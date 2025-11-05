@@ -1,0 +1,137 @@
+[#software-analytics-canvas]
+=== Software Analytics Canvas
+
+Von Markus Harrer.
+
+_Nachvollziehbare, datengetriebene Softwareanalysen_
+
+.Software Analytics Canvas
+image::img/canvas-027.png[Software Analytics Canvas]
+
+[#sac-motivation]
+==== Motivation
+
+Tieferliegende Probleme in komplexen Softwaresystemen lassen sich aufgrund der Menge an verstricktem Code nicht mehr einfach per Hand durchführen. Klassische Codeanalysewerkzeuge liefern zudem in diesen Situationen oftmals nur Erkenntnisse, die den Entwicklungsteams ohnehin bekannt sind, oder liefern Antworten auf Fragen, die nicht für die gegebene Situation relevant sind.
+
+Hier kommt die Softwaredatenanalyse, auch „Software Analytics", ins Spiel, wo es darum geht, anhand von Daten aus der Softwareentwicklung (wie Code-Historie, Log-Files oder dem Code selbst) durch Analysen nachvollziehbar und fundiert handlungsorientierte Erkenntnisse zu gewinnen. Diese Analysen sind jedoch anfangs schwierig umzusetzen und die Gefahr ist groß, sich bei aufwendigeren Analysen im Detail zu verlieren.
+
+Der Software Analytics Canvas hilft, eine Softwaredatenanalyse gezielt und strukturiert durchzuführen. Der Canvas stellt dafür wichtige Eckpunkte einer Analyse explizit dar. Er dient auch dazu, Denkfehler und falsche Vorstellungen zu vermeiden und regt Nutzende dazu an, vorab auch noch einmal über den Sinn und Zweck sowie den Aufwänden einer geplanten Analyse nachzudenken.
+
+Die Ergebnisse aus den Analysen dienen den Canvas-Nutzenden dazu, weniger zu raten, was die eigentlichen Probleme eines Softwaresystems sind, sondern Daten und Fakten zu liefern, die zeigen, woran es genau hakt, um darauf aufbauend gewinnbringende Verbesserungen vorzunehmen. Der Canvas eignet sich auch ideal als Einstieg in die Welt von Software Analytics, um sich bei eigenen Analysen am Anfang weniger zu verzetteln und direkt von Beginn an, robuste, reproduzierbare Analysen und Ergebnisse zu liefern.
+
+Weniger raten, mehr analytisch vorgehen, denn „Without data, you're just another person with an opinion", wie Edward W. Deming bereits zu sagen pflegte!
+
+[#sac-zielgruppe]
+==== Zielgruppe
+
+Die Zielgruppe des Software Analytics Canvas sind alle wissbegierigen Menschen, welche mithilfe von klassischen Datenanalysewerkzeugen wie Python/Pandas oder auch Excel systemische Probleme in großen und mit der Zeit gewachsenen Softwaresystemen explizit sichtbar machen möchten.
+
+[#sac-inhalte]
+==== Inhalte
+
+Canvas-typisch besteht auch der Software Analytics Canvas aus mehreren Sektionen. Klassischerweise wird er Schritt für Schritt von der oberen Reihe von links nach rechts und nachfolgend in der unteren Reihe ebenfalls in dieser Reihenfolge durchgearbeitet. Aber er bietet auch unstrukturierten Ideen einen Platz und kann dadurch auch zuerst skizzenhaft in beliebiger Reihenfolge verwendet werden, um Analysen später auszuarbeiten.
+
+[#sac-fragestellung]
+===== Fragestellung
+
+_Was wollen wir über die Software / Prozesse / Nutzung / Organisation usw. in Erfahrung bringen?_
+
+Jede gute Analyse beginnt mit einer guten, interessanten oder relevanten Frage.
+
+In diesem ersten Abschnitt kannst du deine konkrete Fragestellung formulieren:
+
+* Was genau möchtest du untersuchen?
+* Handelt es sich um ein echtes Problem oder nur um ein Symptom?
+* Wer hat ein Interesse an der Fragestellung und wird den (vielleicht unangenehmen) Antworten Gehör schenken?
+* Und vor allem: Was würde sich ändern, wenn du das Ergebnis kennst?
+
+Analysen brauchen auch Zeit. Mit diesem Abschnitt kannst du direkt bewerten, ob es sich rentiert, eine datengetriebene Analyse überhaupt anzufangen.
+
+[#sac-datenquellen]
+===== Datenquellen
+
+_Welche Daten können unsere Frage möglicherweise beantworten? Welche Informationen benötigen wir?_
+
+Es gibt viele potenzielle Datenquellen, die für deine Analyse relevant sein könnten.
+
+Frage dich:
+
+* Welche Datenquellen stehen dir zur Verfügung? Welche Art von Informationen liefern sie?
+* Fehlen dir vielleicht bestimmte Daten, die du für deine Analyse brauchst?
+* Müsstest du gegebenenfalls manuell Daten in deinem Team erheben?
+
+Die Auswahl der passenden Daten ist von Beginn an entscheidend, um später falsche Schlussfolgerungen zu vermeiden. Wenn du Daten aus einem System extrahieren musst, dokumentiere hier auch grob das Vorgehen, wie du diesen Export vorgenommen hast, damit andere deine Analysen nachvollziehen oder sogar selbst reproduzieren können.
+
+[#sac-heuristiken]
+===== Heuristiken
+
+_Welche Annahmen wollen wir treffen, um unsere Analyse zu vereinfachen?_
+
+Nicht alle Daten aus vorhandenen Systemen eignen sich für eine Softwaredatenanalyse. Oft kannst du auch nicht davon ausgehen, dass die verfügbaren Daten deine eigentliche Frage exakt beantworten. Wir brauchen also Annäherungen auf Basis der vorhandenen Daten. Lege offen, welche Informationen und Aussagemöglichkeiten du in den Daten siehst, und dokumentiere die vereinfachenden Annahmen, die du zu den Daten triffst. Dadurch kannst du deine Analyse schneller durchführen und andere auf die Schwachpunkte deiner Analyse hinweisen.
+
+[#sac-validierung]
+===== Validierung
+
+_Welche Ergebnisse erwarten wir aus unserer Analyse, wie werden sie überprüft und verständlich dargestellt?_
+
+Ein zentraler Erfolgsfaktor bei datengetriebenen Softwareanalysen ist, die Resultate so aufzubereiten und zu präsentieren, dass sie für Entscheider*innen (mit Budget) verständlich sind. Wie lässt sich das sicherstellen? Zudem gilt es zu klären, woran du erkennst, dass du deine Frage wirklich beantwortet hast. Was brauchst du, um dem analysierten Problem wirklich auf den Grund gegangen zu sein?
+
+Diese Sektion hilft dir bei dem Sanity Check und dabei, dass du später nicht in die falsche Richtung abbiegst.
+
+[#sac-implementierung]
+===== Implementierung
+
+_Wie können wir die Analyse Schritt für Schritt nachvollziehbar umsetzen?_
+
+Jetzt geht es ans Eingemachte. Bevor du jedoch loslegst, lohnt es sich, ein bis zwei Minuten über einen möglichen, geschmeidigen Implementierungsweg nachzudenken.
+
+Wenn der Programmcode für die Analyse zu kompliziert wird, versteht ihn niemand mehr – und das kann zu Zweifeln an deinen Ergebnissen führen. Skizziere daher grob die Implementierungsidee und die Tools, die du verwenden möchtest, damit du dich später nicht im Code der Analyse verirrst.
+
+[#sac-ergebnisse]
+===== Ergebnisse
+
+_Was sind die wichtigsten Erkenntnisse aus unserer durchgeführten Analyse?_
+
+Hier kannst du nach der Umsetzung die zentralen Punkte auflisten, die du mit Hilfe deiner Analyse herausgefunden hast. Vor allem: Welche Erkenntnisse hast du gewonnen, die direkt zu Handlungen führen können? Wenn dies nicht offensichtlich ist, gerne auch, was nicht wie geplant lief oder was die Resultate zu unsicher macht.
+
+Falls überhaupt keine relevanten Ergebnisse zustande kamen, dokumentiere das dennoch. Das ist auch kein Problem! Du hast wertvolle Erfahrung in der Datenanalyse im Softwarebereich gesammelt. Beim nächsten Mal kannst du es anders angehen!
+
+[#sac-naechste-schritte]
+===== Nächste Schritte
+
+_Welche Folgeaktionen können wir aus den Erkenntnissen ableiten? Was müssen wir als Nächstes angehen?_
+
+Eine Softwaredatenanalyse-Aufgabe ist nicht abgeschlossen, wenn sich daraus keine konkreten nächsten Schritte ergeben, die die aktuelle Situation verbessern.
+
+Also:
+
+* Welche Entscheidungen lassen sich nun auf Basis der Analyseergebnisse treffen oder vielleicht auch widerlegen?
+* Was sind die Stellen, wo die ein oder andere Hand angelegt werden soll?
+
+Oder auch:
+
+* Welche weiteren Experimente können wir auf Grundlage der nun verfügbaren Fakten durchführen?
+
+Notiere dir dazu eine To-do-Liste oder Ideen für weitere Analysen, um neu gewonnene Einsichten vertiefend zu untersuchen.
+
+[#sac-beispiel]
+==== Beispiel
+
+Hier findest du ein Beispiel für einen Software Analytics Canvas. Für das schon etwas ältere Softwaresystem wurde vermutet, dass große Teile des Codes bis zu ganzen Modulen des Systems nicht mehr benötigt werden würden. Eine maßgeschneiderte Analyse, welche über den Software Analytics Canvas festgehalten wurde, lieferte Tatsachen und brachte das Team ein Stück weiter in ihrer Arbeit.
+
+.Software Analytics Canvas Beispiel
+image::img/canvas-029.png[Software Analytics Canvas Beispiel]
+
+[#sac-bonus]
+==== Bonus
+
+Wenn du diesen Software Analytics Canvas für deine datengetriebenen Analysen von Softwaresystemen ausgefüllt hast, erhältst du automatisch eine Art Dokumentation deiner Analyse. Diese kannst du mit anderen besprechen und später wieder zur Hand nehmen, um bereits durchgeführte Untersuchungen noch einmal nachzuvollziehen. So holst du andere Mitwirkende deines Softwareentwicklungsprojekts schnell ab und musst selbst nicht immer das Rad neu erfinden bei deinen weiteren Analysen.
+
+Viel Spaß bei der Erstellung deines ersten Software Analytics Canvas!
+
+[#sac-weitere-informationen]
+==== Weitere Informationen
+
+* Initiale Vorstellung des Canvas: https://www.feststelltaste.de/software-analytics-canvas/
+* Microsite zum Thema „Software Analytics": https://softwareanalytics.de/
+* Sammlung an interessanten Ressourcen rund um das Thema „Software Analytics": https://github.com/feststelltaste/awesome-software-analytics

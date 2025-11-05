@@ -1,0 +1,24 @@
+.*
+!.gitignore
+!.github
+
+# Temporary conversion files
+temp/
+extracted-text.txt
+
+# Generated HTML files
+*.html
+# But keep docinfo files
+!docinfo*.html
+!**/docinfo*.html
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+~*
+
+*.py

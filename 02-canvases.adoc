@@ -1,0 +1,16 @@
+[#die-canvases]
+== Die Canvases
+
+include::02_01-business-model.adoc[]
+
+include::02_02-architecture-inception.adoc[]
+
+include::02_03-architecture-communication.adoc[]
+
+include::02_04-tech-stack.adoc[]
+
+include::02_05-software-analytics.adoc[]
+
+include::02_06-team-communication.adoc[]
+
+include::02_07-meta-canvas.adoc[]
