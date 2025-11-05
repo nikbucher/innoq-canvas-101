@@ -50,7 +50,7 @@ Teams entwickeln den Canvas oft iterativ. Sie starten z. B. beim Wertangebot und
 ==== Quellen
 
 * Die Erfinder des BMC bieten bei https://www.strategyzer.com/library/the-business-model-canvas[Strategyzer] Downloads, Videos und weitere Infos rund um diese _mother of all canvases_ an.
-* Das Buch schlechthin zum Thema BMC ist „Business Model Generation" von Osterwalder/Pigneur ([1]). Neben dem großartigen Inhalt brilliert dieses Buch auch durch das innovative Layout und die grafische Gestaltung.
+* Das Buch schlechthin zum Thema BMC ist „Business Model Generation" von Osterwalder/Pigneur <<osterwalder-pigneur>>. Neben dem großartigen Inhalt brilliert dieses Buch auch durch das innovative Layout und die grafische Gestaltung.
 
 [#bmc-beispiele]
 ==== Beispiele

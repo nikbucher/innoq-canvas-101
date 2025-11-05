@@ -37,7 +37,7 @@ Wenn man als Team sein „Spielfeld" nicht kennt, hat man keine Grundlage, um te
 
 Aus der Erfahrung zeigt sich, dass Produktteams stets dieselben grundlegenden Fragen klären müssen, bevor die Diskussion technischer Themen sinnvoll ist.
 
-Deshalb hat Patrick Roos siehe [2] den Architecture Inception Canvas (AIC) entwickelt, der Produktteams dabei hilft, die Grundlage für Softwarearchitekturarbeit effizient und kollaborativ zu erarbeiten.
+Deshalb hat Patrick Roos siehe <<roos>> den Architecture Inception Canvas (AIC) entwickelt, der Produktteams dabei hilft, die Grundlage für Softwarearchitekturarbeit effizient und kollaborativ zu erarbeiten.
 
 [#aic-zielgruppe]
 ==== Zielgruppe
