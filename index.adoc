@@ -27,8 +27,6 @@ Homepage: https://www.innoq.com/de/books/canvas-101/[www.innoq.com/de/books/canv
 
 Published by https://www.innoq.com[innoQ Deutschland GmbH]
 
-ifndef::env-github[]
-
 include::01-einfuehrung.adoc[]
 
 include::02-canvases.adoc[]
@@ -36,13 +34,3 @@ include::02-canvases.adoc[]
 include::03-tools.adoc[]
 
 include::04-anhang.adoc[]
-
-endif::[]
-
-ifdef::env-github[]
-In diesem Repository habe ich eine Online-Version des «Canvas 101» Pdf von innoQ erstellt.
-
-Die aktuelle Website ist unter https://nikbucher.github.io/innoq-canvas-101/ erreichbar.
-
-Das Original-Buch kann unter https://www.innoq.com/de/books/canvas-101/ bezogen werden.
-endif::[]
