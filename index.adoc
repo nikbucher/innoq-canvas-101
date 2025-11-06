@@ -8,8 +8,6 @@
 :table-caption: Tabelle
 :note-caption: Hinweis
 :icons: font
-:data-uri:
-:source-highlighter: highlight.js
 :sectnums:
 :sectnumlevels: 3
 :sectlinks:
