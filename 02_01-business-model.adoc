@@ -9,7 +9,7 @@ Das Geschäftsmodell ist das Herzstück jeder erfolgreichen Innovation.
 ____
 
 .Business Model Canvas
-image::img/canvas-003.png[Business Model Canvas]
+image::img/figure-002.png[Business Model Canvas]
 
 
 [#bmc-motivation]
@@ -58,9 +58,9 @@ Teams entwickeln den Canvas oft iterativ. Sie starten z. B. beim Wertangebot und
 ===== Zoom Inc: Video-Meetings
 
 .Business Model Canvas - Zoom Inc
-image::img/canvas-005.png[Business Model Canvas - Zoom Inc]
+image::img/figure-003.png[Business Model Canvas - Zoom Inc]
 
 ===== AirBnb
 
 .Business Model Canvas - AirBnb
-image::img/canvas-006.png[Business Model Canvas - AirBnb]
+image::img/figure-004.png[Business Model Canvas - AirBnb]

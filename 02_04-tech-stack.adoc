@@ -4,7 +4,7 @@
 Von Jörg Müller.
 
 .Tech Stack Canvas
-image::img/canvas-025.png[Tech Stack Canvas]
+image::img/figure-016.png[Tech Stack Canvas]
 
 [#tsc-motivation]
 ==== Motivation

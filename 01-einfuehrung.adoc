@@ -20,7 +20,7 @@ Wir zeigen Ihnen Struktur und Inhalte verschiedener Canvasesfootnote:[Als Mehrza
 All diese Steckbriefe hängen inhaltlich eng zusammen:
 
 .Inhaltlicher Zusammenhang der Canvases
-image::img/canvas-001.png[Inhaltlicher Zusammenhang der Canvases]
+image::img/figure-001.png[Inhaltlicher Zusammenhang der Canvases]
 
 [#empfehlungen]
 === Empfehlungen

@@ -1,7 +1,7 @@
 [#anhang]
 == Anhang
 
-image::img/canvas-037.png[]
+image::img/figure-innoq.png[]
 
 Wir beraten ehrlich, denken innovativ und entwickeln leidenschaftlich gern. Das Ergebnis: Erfolgreiche Softwarelösungen, Infrastrukturen und Geschäftsmodelle.
 

@@ -6,7 +6,7 @@ Von Benjamin Wolf und Gernot Starke.
 _Architekturdokumentation in weniger als 60 Minuten._
 
 .Architecture Communication Canvas
-image::img/canvas-012.png[Architecture Communication Canvas]
+image::img/figure-009.png[Architecture Communication Canvas]
 
 Der Architecture Communication Canvas (im Folgenden kurz ACC) ist die kompakteste Art der Architekturdokumentation von IT-Systemen. Glauben Sie uns nicht? Dann lassen Sie sich in diesem Kapitel davon überzeugen!
 
@@ -68,7 +68,7 @@ Die Kontextabgrenzung, also die Beschreibung der wesentlichen externen Schnittst
 Bis hierhin waren alle Informationen im ACC textuell – beim Business Context können Sie gerne auch ein Diagramm zur Beschreibung verwenden.
 
 .Business Context des ACC
-image::img/canvas-014.png[Business Context des ACC]
+image::img/figure-010.png[Business Context des ACC]
 
 [#acc-components-modules]
 ===== Components / Modules
@@ -80,7 +80,7 @@ In https://arc42.org[arc42] entspricht das der (möglicherweise etwas verkürzte
 Wie bereits beim Kontext mit den externen Schnittstellen können Sie auch hier sowohl eine Aufzählung (bullet list) verwenden als auch ein Diagramm. In den Empfehlungen zum ACC auf Seite 28 finden Sie ein paar Tipps, wie Sie Diagramme für den Canvas etwas vereinfachen können.
 
 .ACC Components / Modules
-image::img/canvas-016.png[ACC Components / Modules]
+image::img/figure-011.png[ACC Components / Modules]
 
 [#acc-core-decisions]
 ===== Core Decisions – Good or Bad
@@ -120,14 +120,14 @@ Wir haben gute Erfahrung damit gemacht, auf Basis einer bestehenden arc42-Dokume
 ====
 
 .ACC als Einstieg in umfangreichere arc42 Dokumentation
-image::img/canvas-018.png[ACC als Einstieg in umfangreichere arc42 Dokumentation]
+image::img/figure-012.png[ACC als Einstieg in umfangreichere arc42 Dokumentation]
 
 ===== ACC zur Dokumentation von Microservices
 
 Aus unserer Sicht ein Gamechanger im Umgang mit der Dokumentation von Microservices: Spendieren Sie jedem (relevanten) Service einen eigenen Canvas. Zusätzlich erstellen und pflegen Sie einen übergeordneten Canvas, der neben den Abhängigkeiten und Schnittstellen der Services zueinander die wesentlichen übergreifenden Entscheidungen und Technologien aufführt. Abbildung 2.6 skizziert dieses Vorgehen beispielhaft.
 
 .ACC für Microservices
-image::img/canvas-020.png[ACC für Microservices]
+image::img/figure-013.png[ACC für Microservices]
 
 ===== Nutzen Sie Diagramme für Kontext und Komponenten
 
@@ -138,7 +138,7 @@ Was aber, wenn ein solches Diagramm zu groß für den verfügbaren Platz auf dem
 In solchen Fällen schlagen wir den pragmatischen Ausweg eines „Sonstiges"-Symbols vor, was Sie in Abbildung 2.7 am Beispiel sehen können. Alle wichtigen Komponenten bekommen ihr eigenes Symbol, und die weniger wichtigen subsumieren Sie durch „Sonstiges".
 
 ."Sonstiges" als Platzhalter im Diagramm
-image::img/canvas-022.png["Sonstiges" als Platzhalter im Diagramm]
+image::img/figure-014.png["Sonstiges" als Platzhalter im Diagramm]
 
 Sie können darüber hinaus aber noch ein paar Vereinfachungen an diesen Diagrammen vornehmen:
 
@@ -158,4 +158,4 @@ Die kleine Anwendung bei arc42, die Besucherzähler sowie offene Bugs und Issues
 Obwohl die Aufgaben dieses Systems fast trivial anmuten, haben wir es immerhin mit ein paar sehr unterschiedlichen externen Schnittstellen zu tun. Weiterhin besteht die Herausforderung, den (Cloud-)Betrieb des Systems möglichst kostengünstig respektive kostenfrei zu gestalten, weil das Ganze ja als Open-Source ohne Monetarisierung daherkommt.
 
 .ACC von status.arc42.org
-image::img/canvas-024.png[ACC von status.arc42.org]
+image::img/figure-015.png[ACC von status.arc42.org]

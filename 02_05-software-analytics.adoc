@@ -6,7 +6,7 @@ Von Markus Harrer.
 _Nachvollziehbare, datengetriebene Softwareanalysen_
 
 .Software Analytics Canvas
-image::img/canvas-027.png[Software Analytics Canvas]
+image::img/figure-017.png[Software Analytics Canvas]
 
 [#sac-motivation]
 ==== Motivation
@@ -120,7 +120,7 @@ Notiere dir dazu eine To-do-Liste oder Ideen für weitere Analysen, um neu gewon
 Hier findest du ein Beispiel für einen Software Analytics Canvas. Für das schon etwas ältere Softwaresystem wurde vermutet, dass große Teile des Codes bis zu ganzen Modulen des Systems nicht mehr benötigt werden würden. Eine maßgeschneiderte Analyse, welche über den Software Analytics Canvas festgehalten wurde, lieferte Tatsachen und brachte das Team ein Stück weiter in ihrer Arbeit.
 
 .Software Analytics Canvas Beispiel
-image::img/canvas-029.png[Software Analytics Canvas Beispiel]
+image::img/figure-018.png[Software Analytics Canvas Beispiel]
 
 [#sac-bonus]
 ==== Bonus
