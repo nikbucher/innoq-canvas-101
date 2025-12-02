@@ -1,6 +1,6 @@
-name: canvas-101
+name: ROOT
 title: Canvas 101
-version: '1.0'
+version: ~
 nav:
   - modules/ROOT/nav.adoc
 asciidoc:
