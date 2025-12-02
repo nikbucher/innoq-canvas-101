@@ -6,7 +6,7 @@ Von Benjamin Wolf und Gernot Starke.
 _We drink our own champagne._
 
 .Meta-Canvas
-image::img/figure-019.png[Meta-Canvas]
+image::img/figure-023.png[Meta-Canvas]
 
 Eigentlich ist dieser Canvas aus einem Scherz heraus entstanden. Als wir uns Gedanken machten, wie wir die einzelnen Canvases möglichst einheitlich beschreiben sollten, schlug Ben als Witz einen Canvas zur Beschreibung der Canvases vor. Gar nicht so abwegig, oder? Im Folgenden sind kurz die einzelnen Felder beschrieben, die Sie im Canvas oben sehen können. Vielleicht ist dieser Canvas auch für Sie nützlich, um Themen strukturiert zusammenzufassen – es muss ja nicht zwingend ein Canvas sein.
 

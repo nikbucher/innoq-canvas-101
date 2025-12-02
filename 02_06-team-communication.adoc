@@ -6,7 +6,7 @@ Von Anja Kammer und Lena Kraaz.
 _Struktur für erfolgreiche Zusammenarbeit._
 
 .Team Communication Canvas
-image::img/canvas-031.jpg[Team Communication Canvas]
+image::img/figure-019.jpg[Team Communication Canvas]
 
 [#tcc-motivation]
 ==== Motivation
@@ -155,7 +155,7 @@ Wir empfehlen eine bestimmte Reihenfolge, da Abschnitte aufeinander aufbauen. Ge
 Jeder Abschnitt wird in der oben genannten Reihenfolge im Team zunächst in Einzelarbeit bearbeitet. Jede Person notiert ihre Sichtweisen auf den aktuellen Abschnitt (z. B. „Wünsche und Erwartungen").
 
 .TCC Einzelarbeit
-image::img/canvas-032.jpg[TCC Einzelarbeit]
+image::img/figure-020.jpg[TCC Einzelarbeit]
 
 [#tcc-diskussion]
 ===== Diskussion
@@ -170,7 +170,7 @@ Ziel ist es, Transparenz über die individuellen Sichtweisen zu schaffen und gem
 Die Absprachen, die in Zukunft für das ganze Team gelten sollen, werden in knappen Stichpunkten im Canvas notiert. Dabei braucht es keine zwingende oder vollständige Einigung. Unterschiedliche Standpunkte können deutlich werden und im Zweifelsfall auch später weiter diskutiert werden. Lücken sind erlaubt und schaffen Freiräume.
 
 .TCC Dokumentation
-image::img/canvas-033.png[TCC Dokumentation]
+image::img/figure-021.png[TCC Dokumentation]
 
 [#tcc-empfehlungen]
 ==== Empfehlungen
@@ -195,6 +195,6 @@ Folgende Stolpersteine können auftreten:
 ==== Beispiele
 
 .Team Communication Canvas Beispiel
-image::img/canvas-034.jpg[Team Communication Canvas Beispiel]
+image::img/figure-022.jpg[Team Communication Canvas Beispiel]
 
 Gerade in Beratungsteams, die immer wieder in neuen Konstellationen starten, hat sich dieses Vorgehen bewährt. Es wird ein neuer Canvas zu Projektbeginn ausgefüllt, sodass alle Beteiligten gleich zu Anfang wissen, wie sie miteinander umgehen wollen. Auch in langlaufenden Projekten kann ein Canvas-Workshop helfen, wenn sich die Teamzusammensetzung stark ändert oder neue Personen hinzukommen, die andere Perspektiven mitbringen. Der Canvas erleichtert es, Anregungen einzubringen, ohne dass sie im „blinden Fleck" der eingespielten Teamrituale untergehen.
