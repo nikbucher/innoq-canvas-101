@@ -1,0 +1,40 @@
+= Canvas 101: One-Pager für bessere Kommunikation
+
+Eine Online-Version des Buchs **Canvas 101: One-Pager für bessere Kommunikation** von innoQ – zur einfachen Nutzung im Browser.
+
+[TIP]
+====
+Das Originalbuch ist hier verfügbar: https://www.innoq.com/de/books/canvas-101/[www.innoq.com/de/books/canvas-101]
+====
+
+== Über dieses Buch
+
+Mit Canvas bezeichnen wir die strukturierte Visualisierung von Sachverhalten.
+Damit erreichen wir die kürzestmögliche Dokumentation, vom zugrunde liegenden Geschäftsmodell über konkrete Anforderungen, die Lösungsarchitektur, betriebliche Aspekte bis hin zur Zusammenarbeit im Team.
+
+In diesem Buch finden Sie folgende Canvases:
+
+* xref:02-01-business-model.adoc[Business Model Canvas] - Der klassische Steckbrief für Geschäfts- oder Business-Modelle.
+* xref:02-02-architecture-inception.adoc[Architecture Inception Canvas] - Der solide Start in IT-Vorhaben.
+* xref:02-03-architecture-communication.adoc[Architecture Communication Canvas] - Architekturdokumentation in Kurzform.
+* xref:02-05-software-analytics.adoc[Software Analytics Canvas] - Grundlage systematischer Verbesserung.
+* xref:02-04-tech-stack.adoc[Tech Stack Canvas] - Die technischen Grundlagen Ihres Systems.
+* xref:02-06-team-communication.adoc[Team Communication Canvas] - Wie wollen wir zusammenarbeiten?
+* xref:02-07-meta-canvas.adoc[Meta Canvas] - Ein Canvas über Canvases.
+
+== Autoren
+
+Markus Harrer, Anja Kammer, Lena Kraaz, Jörg Müller, Patrick Roos, Gernot Starke, Benjamin Wolf
+
+== Impressum
+
+**Canvas 101 – One-Pager für bessere Kommunikation**
+
+Published by innoQ Deutschland GmbH +
+1. Auflage · Februar 2025
+
+innoQ Deutschland GmbH +
+Krischerstraße 100 · 40789 Monheim am Rhein · Germany +
+Phone +49 2173 33660 · https://www.innoq.com[www.innoq.com]
+
+Copyright © 2025 INNOQ

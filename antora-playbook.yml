@@ -1,0 +1,31 @@
+site:
+  title: "Canvas 101: One-Pager für bessere Kommunikation"
+  url: https://nikbucher.github.io/innoq-canvas-101
+  start_page: canvas-101::index.adoc
+
+content:
+  sources:
+    - url: .
+      start_path: docs
+      branches: HEAD
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+asciidoc:
+  attributes:
+    page-pagination: ''
+    icons: font
+    figure-caption: Abbildung
+    table-caption: Tabelle
+    note-caption: Hinweis
+    xrefstyle: full
+    chapter-refsig: Kapitel
+    section-refsig: Kapitel
+
+antora:
+  extensions:
+    - '@antora/lunr-extension'

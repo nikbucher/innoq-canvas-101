@@ -1,0 +1,13 @@
+{
+  "name": "canvas-101-docs",
+  "description": "Canvas 101: One-Pager für bessere Kommunikation",
+  "private": true,
+  "devDependencies": {
+    "antora": "^3.1",
+    "@antora/lunr-extension": "^1.0.0-alpha.12"
+  },
+  "scripts": {
+    "build": "antora --clean antora-playbook.yml",
+    "preview": "npm run build && npx http-server build/site -o"
+  }
+}

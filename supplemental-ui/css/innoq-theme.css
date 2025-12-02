@@ -1,0 +1,183 @@
+/* INNOQ Brand Colors for Antora */
+:root {
+  /* Primary Colors */
+  --innoq-petrol: #004153;
+  --innoq-apricot: #FF9C66;
+  --innoq-text: #242424;
+  --innoq-background: #FFFFFF;
+  --innoq-gray: #979798;
+
+  /* Override Antora CSS Variables */
+
+  /* Navbar */
+  --navbar-background: var(--innoq-petrol);
+  --navbar-font-color: var(--innoq-background);
+  --navbar-menu-background: var(--innoq-petrol);
+  --navbar-menu-font-color: var(--innoq-background);
+
+  /* Navigation Sidebar */
+  --nav-background: var(--innoq-background);
+  --nav-heading-font-color: var(--innoq-petrol);
+  --nav-muted-color: var(--innoq-gray);
+
+  /* Links */
+  --link-font-color: var(--innoq-petrol);
+  --link_hover-font-color: var(--innoq-apricot);
+
+  /* Headings */
+  --heading-font-color: var(--innoq-petrol);
+
+  /* Body */
+  --body-font-color: var(--innoq-text);
+  --body-background: var(--innoq-background);
+
+  /* Code blocks */
+  --code-font-color: var(--innoq-text);
+  --code-background: #f5f5f5;
+
+  /* Toolbar */
+  --toolbar-background: #f0f0f0;
+  --toolbar-font-color: var(--innoq-text);
+
+  /* Table of Contents */
+  --toc-font-color: var(--innoq-text);
+  --toc-heading-font-color: var(--innoq-petrol);
+
+  /* Section dividers */
+  --section-divider-color: var(--innoq-petrol);
+
+  /* Doc content */
+  --doc-font-color: var(--innoq-text);
+
+  --tip-color: var(--innoq-apricot) !important;
+  --note-color: var(--innoq-petrol) !important;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: var(--innoq-petrol) !important;
+}
+
+.navbar-brand .navbar-item {
+  color: var(--innoq-background) !important;
+  font-weight: 600;
+}
+
+.navbar-menu .navbar-item {
+  color: var(--innoq-background);
+}
+
+a.navbar-item:hover {
+  color: var(--innoq-apricot) !important;
+  background-color: transparent !important;
+}
+
+/* Active navigation item */
+.nav-item.is-current-page > .nav-link,
+.nav-item.is-current-page > .nav-text {
+  color: var(--innoq-petrol);
+  font-weight: 600;
+}
+
+/* Navigation panel */
+.nav-panel-menu {
+  background-color: var(--innoq-background);
+}
+
+.nav-menu a {
+  color: var(--innoq-text);
+}
+
+.nav-menu a:hover {
+  color: var(--innoq-apricot);
+}
+
+/* Search input styling */
+#search-field::before {
+  display: none !important;
+}
+
+#search-input {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.7)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") no-repeat 0.5rem center/1rem;
+  color: var(--innoq-background);
+  padding-left: 1.75rem;
+}
+
+#search-input:focus {
+  background-image: none;
+  padding-left: 0.5rem;
+  border-color: var(--innoq-apricot);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Links in content */
+.doc a {
+  color: var(--innoq-petrol);
+}
+
+.doc a:hover {
+  color: var(--innoq-apricot);
+}
+
+/* Headings */
+.doc h1,
+.doc h2,
+.doc h3,
+.doc h4,
+.doc h5,
+.doc h6 {
+  color: var(--innoq-petrol);
+}
+
+/* Page title */
+.doc h1.page {
+  color: var(--innoq-petrol);
+  border-bottom: 2px solid var(--innoq-apricot);
+  padding-bottom: 0.5rem;
+}
+
+/* Section headings */
+.doc h2 {
+  border-bottom-color: var(--innoq-petrol);
+}
+
+/* Pagination links */
+.pagination a {
+  color: var(--innoq-petrol);
+}
+
+.pagination a:hover {
+  color: var(--innoq-apricot);
+}
+
+/* External link indicator */
+.navbar-end > a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-left: 0.25em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.8)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E") no-repeat center/contain;
+  vertical-align: middle;
+}
+
+/* Table styling */
+.doc table thead {
+  background-color: var(--innoq-petrol);
+  color: var(--innoq-background);
+}
+
+.doc table th {
+  color: var(--innoq-background);
+}
+
+/* Sidebar title */
+.nav-menu .title {
+  color: var(--innoq-petrol);
+}
+
+/* Version selector */
+.nav-panel-explore .component .title {
+  color: var(--innoq-petrol);
+}

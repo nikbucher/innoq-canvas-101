@@ -1,13 +1,12 @@
-[#tech-stack-canvas]
-=== Tech Stack Canvas
+= Tech Stack Canvas
 
 Von Jörg Müller.
 
 .Tech Stack Canvas
-image::img/figure-016.png[Tech Stack Canvas]
+image::figure-016.png[Tech Stack Canvas]
 
 [#tsc-motivation]
-==== Motivation
+== Motivation
 
 In jedem Softwareprojekt gibt es Situationen, in denen das Team entscheiden muss, welche technischen Komponenten zum Einsatz kommen. Dabei stehen nicht selbst entwickelte Komponenten im Fokus, sondern bestehende Technologien und Angebote, die die Grundlage für eigene Entwicklungen bilden.
 
@@ -20,7 +19,7 @@ Noch komplexer wird es, wenn mehrere Teams mit unterschiedlichen Tech Stacks arb
 Der Tech Stack Canvas wurde entwickelt, um genau diese Herausforderungen in der Softwareentwicklung zu adressieren. Er bietet eine strukturierte Methode, um die wesentlichen Aspekte eines Tech Stacks auf einer einzigen Seite zu erfassen. Damit unterstützt er das Team dabei, den Tech Stack zu konzipieren, zu dokumentieren und klar an alle Beteiligten zu kommunizieren.
 
 [#tsc-zielgruppe]
-==== Zielgruppe
+== Zielgruppe
 
 Der Tech Stack Canvas ist für alle Projektbeteiligten relevant.
 
@@ -35,7 +34,7 @@ Ein Überblick über die eingesetzten Technologien ist auch für das Management 
 Die Erstellung des Tech Stack Canvas ist in der Regel eine Teamaufgabe. Unterschiedliche Aspekte fließen in die Entscheidung ein, welche Technologien eingesetzt werden. Das Vorgehen zur Erstellung wird im Folgenden genauer beschrieben.
 
 [#tsc-inhalte]
-==== Inhalte
+== Inhalte
 
 Der Tech Stack Canvas unterteilt sich in vier grobe Abschnitte, die Sie an den unterschiedlichen Farben der Elemente erkennen:
 
@@ -45,7 +44,7 @@ Der Tech Stack Canvas unterteilt sich in vier grobe Abschnitte, die Sie an den u
 * Infrastruktur (Infrastructure & Deployment, Monitoring & Analytics, Development Workflow & Collaboration)
 
 [#tsc-produktkontext]
-===== Produktkontext
+=== Produktkontext
 
 Der Produktkontext ermöglicht den Nutzer:innen des Canvas, die Basis für die Entscheidungen in den anderen Abschnitten zu verstehen. Eine Entscheidung für eine bestimmte Technologie lässt sich nur sinnvoll bewerten, wenn klar ist, wofür sie eingesetzt wird. Daher beschreibt dieser Abschnitt die wesentlichen Rahmenbedingungen, damit der Canvas auch ohne weitere Dokumente verständlich bleibt. Es ist jedoch wichtig zu beachten, dass hier kein Anspruch auf Vollständigkeit besteht.
 
@@ -56,7 +55,7 @@ Anschließend folgt der Bereich *Sizing Numbers*. Wird das System eher von 10 od
 Im Abschnitt *Major Quality Attributes* beschreiben Sie die Qualitätsziele, die die Technologieentscheidungen geprägt haben. Verwenden Sie hierfür Stichpunkte. Hilfreich ist ein Blick auf die Kriterien der ISO 25010 oder das https://quality.arc42.org/[arc42-Qualitätsmodell]. Ein Produkt mit Fokus auf Benutzerfreundlichkeit erfordert möglicherweise andere Technologien als ein System, bei dem die Performance an erster Stelle steht.
 
 [#tsc-kerntechnologien]
-===== Kerntechnologien
+=== Kerntechnologien
 
 Der Bereich Kerntechnologien umfasst die zentralen Elemente, die Sie vermutlich zuerst nennen würden, wenn jemand nach dem Tech Stack Ihres Produkts fragt. Welche Programmiersprachen und wesentlichen Frameworks nutzen Sie für die Entwicklung? Wie speichern Sie die Daten? Der Canvas teilt diese Technologien in drei Bereiche, die auch in einer klassischen 3-Schichten-Architektur üblich sind:
 
@@ -69,7 +68,7 @@ Diese Unterteilung ist keine Architekturvorgabe, sondern eine Struktur, die für
 Auch in diesem Abschnitt liegt der Fokus auf den wesentlichen Technologien. So ist es beispielsweise wichtig, zu erwähnen, wenn Sie im Frontend TypeScript mit React verwenden. Weniger relevante Details, wie etwa die verwendete Bibliothek zum Rendern von Buttons, können Sie weglassen.
 
 [#tsc-unterstuetzende-technologien]
-===== Unterstützende Technologien
+=== Unterstützende Technologien
 
 Der Bereich unterstützende Technologien konzentriert sich auf Technologien, die neben den klassischen Kernkomponenten eingesetzt werden. Er umfasst verschiedene Elemente, die wichtige Bestandteile des Tech Stacks darstellen und nicht vergessen werden sollten. Dieser Abschnitt enthält drei Elemente:
 
@@ -84,7 +83,7 @@ Das nächste Element *Security & Compliance* listet sowohl relevante Technologie
 Der Abschnitt *Testing & QA* beschreibt alle Methoden und Technologien, die zur Sicherstellung der Qualität des Produkts verwendet werden. Dazu gehören wesentliche Elemente der Testpyramide, wie Frameworks für Unit-Tests und Integrationstests. Werden spezifische Testmethoden eingesetzt, können diese ebenfalls in diesem Bereich dokumentiert werden.
 
 [#tsc-infrastruktur]
-===== Infrastruktur
+=== Infrastruktur
 
 An der Basis des Canvas befindet sich der Bereich für die Infrastruktur. Dieser gliedert sich in drei verschiedene Elemente:
 
@@ -101,7 +100,7 @@ Das dritte Element, *Development Workflow & Collaboration*, umfasst Werkzeuge, d
 Sie kennen jetzt alle wichtigen Elemente des Tech Stack Canvas. Doch wie erstellen Sie ein solches Canvas effektiv?
 
 [#tsc-vorgehen]
-==== Vorgehen
+== Vorgehen
 
 Das Vorgehen zur Erstellung eines Tech Stack Canvas unterscheidet sich je nach Situation, in der sich das Projekt befindet. Es gibt drei typische Anwendungsfälle:
 
@@ -109,7 +108,8 @@ Das Vorgehen zur Erstellung eines Tech Stack Canvas unterscheidet sich je nach S
 * Erarbeitung eines groben Tech Stacks im Rahmen eines Scoping-Workshops
 * Entwurf eines vollständigen und detaillierten Tech Stacks zu Projektbeginn
 
-Wenn Ihr Produkt und der dazugehörige Tech Stack bereits existieren und Sie diesen nur mithilfe des Canvas dokumentieren möchten, empfiehlt sich folgendes Vorgehen: Organisieren Sie einen Workshop mit den wichtigsten Know-how-Träger:innen aus dem Team. Für jeden Bereich des Canvas sollte eine Expertin oder ein Experte anwesend sein. Das bedeutet, dass Sie in der Regel mindestens Personen mit folgenden Rollen einbeziehen sollten: jemand mit Produktwissen, eine Softwareentwicklerin oder ein Softwareentwickler, eine Testverantwortliche oder ein Testverantwortlicher sowie eine Person, die für den Betrieb des Produkts zuständig ist. Die genaue Anzahl der Teilnehmenden hängt von Ihrem Produkt und Ihrem Team ab.
+Wenn Ihr Produkt und der dazugehörige Tech Stack bereits existieren und Sie diesen nur mithilfe des Canvas dokumentieren möchten, empfiehlt sich folgendes Vorgehen: Organisieren Sie einen Workshop mit den wichtigsten Know-how-Träger:innen aus dem Team.
+Für jeden Bereich des Canvas sollte eine Expertin oder ein Experte anwesend sein. Das bedeutet, dass Sie in der Regel mindestens Personen mit folgenden Rollen einbeziehen sollten: jemand mit Produktwissen, eine Softwareentwicklerin oder ein Softwareentwickler, eine Testverantwortliche oder ein Testverantwortlicher sowie eine Person, die für den Betrieb des Produkts zuständig ist. Die genaue Anzahl der Teilnehmenden hängt von Ihrem Produkt und Ihrem Team ab.
 
 Diese Kolleg:innen verwenden eine gedruckte oder elektronische Version des Canvas (siehe unten für Templates) und füllen diese nach bestem Wissen aus. Eine Erarbeitung in Gruppen ist dabei sinnvoll und effizient. Erfahrungsgemäß dauert ein solcher Workshop nicht länger als eine Stunde. Halten Sie den Bereich des Produktkontextes knapp und beschränken Sie sich auf Informationen, die den Tech Stack tatsächlich beeinflussen.
 
@@ -140,7 +140,7 @@ Nachdem alle Elemente des Canvas auf diese Weise ausgefüllt wurden, erfolgt im 
 Die meisten Methoden, um einen Tech Stack Canvas zu erstellen, sind schnell und leicht zu erlernen. Probieren Sie es aus! Als Unterstützung stehen Ihnen verschiedene Vorlagen zur Verfügung, die im folgenden Abschnitt beschrieben werden.
 
 [#tsc-tools-vorlagen-quellen]
-==== Tools, Vorlagen, Quellen
+== Tools, Vorlagen, Quellen
 
 Der erste Anlaufpunkt für den Tech Stack Canvas ist die Webseite https://techstackcanvas.io[techstackcanvas.io]. Dort erhalten Sie eine Übersicht über den Aufbau des Canvas sowie detaillierte Informationen zu den einzelnen Elementen. Durch Klicken auf die Elemente können Sie zusätzliche Erläuterungen und Beispiele abrufen, die zeigen, welche Informationen dort eingetragen werden können. Zudem bietet die Webseite eine ausführliche Anleitung für die Erstellung eines Tech Stack Canvas.
 

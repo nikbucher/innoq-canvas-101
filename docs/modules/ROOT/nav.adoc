@@ -1,0 +1,12 @@
+* xref:index.adoc[Startseite]
+* xref:01-einfuehrung.adoc[Einführung]
+* Canvases
+** xref:02-01-business-model.adoc[Business Model Canvas]
+** xref:02-02-architecture-inception.adoc[Architecture Inception Canvas]
+** xref:02-03-architecture-communication.adoc[Architecture Communication Canvas]
+** xref:02-04-tech-stack.adoc[Tech Stack Canvas]
+** xref:02-05-software-analytics.adoc[Software Analytics Canvas]
+** xref:02-06-team-communication.adoc[Team Communication Canvas]
+** xref:02-07-meta-canvas.adoc[Meta Canvas]
+* xref:03-tools.adoc[Tools & Vorlagen]
+* xref:04-anhang.adoc[Anhang]

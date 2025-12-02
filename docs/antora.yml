@@ -1,0 +1,8 @@
+name: canvas-101
+title: Canvas 101
+version: '1.0'
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    page-lang: de
