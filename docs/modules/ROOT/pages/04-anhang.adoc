@@ -19,8 +19,8 @@ Besuchen Sie uns: https://www.innoq.com[www.innoq.com]
 - [[[osterwalder-pigneur]]] A. Osterwalder und Y. Pigneur, _Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers_. Wiley, 2010, S. 278.
 - [[[roos]]] P. Roos, „The Software Architecture Canvas: An Efficient and Collaborative Way to Define Your Software Architecture Playground". https://www.workingsoftware.dev/software-architecture-canvas/, 2023.
 - [[[heise-special]]] H. D. Special, „Episode 97: Architecture Canvas (2): Einstieg in die Lösung". Podcast, https://www.heise.de/blog/Episode-97-Architecture-Canvas-2-Einstieg-in-die-Loesung-9697394.html, 2024.
-- G. Starke und B. Wolf, „Der Architecture Communication Canvas". https://www.informatik-aktuell.de/entwicklung/methoden/der-architecture-communication-canvas.html, 2024.
-- canvas.arc42.org, „Architecture Communication Canvas". https://canvas.arc42.org/architecture-communication-canvas, 2024.
+- [[[starke-wolf]]] G. Starke und B. Wolf, „Der Architecture Communication Canvas". https://www.informatik-aktuell.de/entwicklung/methoden/der-architecture-communication-canvas.html, 2024.
+- [[[canvas-arc42]]] canvas.arc42.org, „Architecture Communication Canvas". https://canvas.arc42.org/architecture-communication-canvas, 2024.
 
 [#autorinnen]
 == Autor:innen
